@@ -18,7 +18,7 @@ $Hap = New-Object -TypeName HtmlAgilityPack.HtmlDocument
 $IE = New-Object -ComObject InternetExplorer.Application
 
 # Navigate to page
-$IE.Navigate("https://nemosminer.com/workers.php?user=85981053-281c-468e-a7b0-05cc83473fbd")
+$IE.Navigate("https://nemosminer.com/workers.php?user=your-user-id")
 
 # Wait until navigation complete
 while ($IE.Busy)
